@@ -1,0 +1,19 @@
+.header-nav {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .header-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-item {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  

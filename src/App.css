@@ -1,4 +1,15 @@
-.App {
+.content-box{
+  margin: 2em 12em;
+  background-color: #3b3333;
+  padding: 2em;
+  border-radius: 2em 5em;
+}
+
+.content-box p{
+  color: #fff;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +46,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
