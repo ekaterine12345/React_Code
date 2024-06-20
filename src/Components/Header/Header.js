@@ -32,15 +32,15 @@ const ThemeSwitcher = styled.button`
 
 export default function Header(props) {
   return (
-    // <nav className="header-nav">
-    // <ul className="header-menu">
     <HeaderNav>
-    <HeaderMenu>
-    <HeaderItem>{props.home}</HeaderItem>
-        <HeaderItem>{props.about}</HeaderItem>
-        <HeaderItem>{props.contact}</HeaderItem>
-        <HeaderItem>{props.profile}</HeaderItem>
-        <HeaderItem><ThemeSwitcher onClick={props.themeToggler}>Toggle Theme</ThemeSwitcher></HeaderItem> 
+      <HeaderMenu>
+      <HeaderItem>{props.home}</HeaderItem>
+          <HeaderItem>{props.about}</HeaderItem>
+          <HeaderItem>{props.contact}</HeaderItem>
+          <HeaderItem>{props.profile}</HeaderItem>
+          <HeaderItem>
+            <ThemeSwitcher onClick={props.themeToggler}>Toggle Theme</ThemeSwitcher>
+          </HeaderItem> 
       </HeaderMenu>
     </HeaderNav>
   )

@@ -45,19 +45,19 @@ const ContentBox = styled.div`
 
 function App() {
 
-  const [theme, setTheme] = useState('light'); // Ensure useState is used correctly
+  const [theme, setTheme] = useState('light'); 
   const themeToggler = () => {
     setTheme(theme === 'light' ? 'dark' : 'light');
   };
 
 
-  // Define social networks data
+  
 const socialNetworks = [
-  { name: 'Facebook', icon: facebook, link: 'https://www.facebook.com/' }, // Use the imported facebook icon
-  { name: 'Instagram', icon: instagram, link: 'https://www.instagram.com/' }, // Use the imported instagram icon
+  { name: 'Facebook', icon: facebook, link: 'https://www.facebook.com/' }, 
+  { name: 'Instagram', icon: instagram, link: 'https://www.instagram.com/' }, 
   { name: 'Linkedin', icon: linkedin, link: 'https://www.linkedin.com/' },
   { name: 'X-twitter', icon: Xtwitter, link: 'https://twitter.com/' },
-  // Add more social networks as needed
+  
 ];
 
 
@@ -65,12 +65,11 @@ const socialNetworks = [
   <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
     <Container>
     <div className='container'>
-       {/* <img src={facebook} className="App-logo" alt="facebook" /> */}
 
       <Header home="Home" about="About" contact="Contact" profile="Profle"  themeToggler={themeToggler}> </Header>
 
       <ContentBox>
-      {/* <div class='content-box'> */}
+    
        <p>
        From humble beginnings in a garage to becoming a global tech leader, Apple's 
        story is one of innovation and design.  Founded by Steve Jobs and Steve 
